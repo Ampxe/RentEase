@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Admin - RentEase</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="checkAdmin(); loadAdminProducts();">
+<header>
+  <h1>RentEase Admin</h1>
+</header>
+<nav>
+  <a href="/">Home</a>
+  <a href="/products">Products</a>
+  <a href="/cart">Cart</a>
+  <a href="#" onclick="logout()">Logout</a>
+</nav>
+
+<div class="container">
+  <section class="admin-dashboard">
+    <h2>Admin Dashboard</h2>
+    <div class="admin-form">
+      <label>Product Name</label>
+      <input type="text" id="productName" placeholder="Product Name">
+      <label>Monthly Rent</label>
+      <input type="number" id="productPrice" placeholder="Monthly Rent">
+      <button onclick="addProduct()">Add Product</button>
+    </div>
+
+    <h2>Products</h2>
+    <div class="products-list" id="productsList"></div>
+  </section>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

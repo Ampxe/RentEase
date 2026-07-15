@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Checkout - RentEase</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <h1>RentEase</h1>
+</header>
+<nav>
+  <a href="/">Home</a>
+  <a href="/products">Products</a>
+  <a href="/cart">Cart</a>
+</nav>
+
+<div class="container">
+  <section class="featured">
+    <h2>Checkout</h2>
+    <div class="form-group">
+      <input type="text" id="fullName" placeholder="Full Name">
+      <input type="email" id="email" placeholder="Email">
+      <input type="text" id="address" placeholder="Address">
+      <input type="text" id="phone" placeholder="Phone Number">
+    </div>
+    <button onclick="checkout()">Confirm Rental</button>
+    <br><br>
+    <button onclick="window.location.href='/'" style="background-color:#666;">Back to Home</button>
+  </section>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

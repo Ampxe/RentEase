@@ -1,0 +1,24 @@
+[
+  {
+    "orderId": "ORD-1784101770947",
+    "fullName": "Abhisek Mohapatra",
+    "email": "abhisekmohapatra492@gmail.com",
+    "address": "Near nc college new boy hostel",
+    "phone": "06370120481",
+    "cart": [
+      {
+        "id": 2,
+        "name": "Bed",
+        "price": 1299
+      },
+      {
+        "id": 3,
+        "name": "Dining Table",
+        "price": 999
+      }
+    ],
+    "totalRent": 2298,
+    "orderDate": "2026-07-15T07:49:30.948Z",
+    "status": "confirmed"
+  }
+]

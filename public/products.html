@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Products - RentEase</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <h1>RentEase</h1>
+</header>
+<nav>
+  <a href="/">Home</a>
+  <a href="/products">Products</a>
+  <a href="/cart">Cart</a>
+  <a href="/login">Login</a>
+  <a href="/admin">Admin</a>
+</nav>
+
+<div class="container">
+  <section class="featured">
+    <h2>Available Products</h2>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search products..." oninput="searchProducts(this.value)">
+    </div>
+    <div class="cards" id="productContainer"></div>
+  </section>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

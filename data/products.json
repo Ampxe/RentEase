@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Sofa",
+    "price": 899,
+    "image": "sofa.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Bed",
+    "price": 1299,
+    "image": "bed.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Dining Table",
+    "price": 999,
+    "image": "dining-table.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Chair",
+    "price": 299,
+    "image": "chair.jpg"
+  },
+  {
+    "id": 5,
+    "name": "TV",
+    "price": 1499,
+    "image": "tv.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Washing Machine",
+    "price": 2499,
+    "image": "washing-machine.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Refrigerator",
+    "price": 3499,
+    "image": "refrigerator.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Study Table",
+    "price": 599,
+    "image": "study-table.jpg"
+  }
+]
